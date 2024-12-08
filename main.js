@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (selectedQuizzes.length === 0) {
                 alert("Please select at least one quiz to start!");
-                return;
             }
 
             // Save selected quizzes to localStorage
